@@ -1,0 +1,12 @@
+# dane i wyniki treningu (pobierane / tworzone przez notatnik, za duże do repozytorium)
+data/
+cache/
+
+# środowisko Pythona
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/

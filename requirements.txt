@@ -1,0 +1,21 @@
+# Python 3.10.12
+# PyTorch z CUDA instalujemy osobno, z indeksem dopasowanym do sterownika karty, np.:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu118
+torch==2.6.0
+torchvision==0.21.0
+
+# wersje jak w komórce instalacyjnej notatnika
+timm==1.0.31
+scikit-learn==1.7.2
+pyarrow==25.0.1
+pandas==2.3.3
+matplotlib==3.10.9
+
+# importowane bezpośrednio w notatniku, instalowane razem z powyższymi;
+# dokładne wersje uzupełnić z `pip freeze` w środowisku, w którym uruchamiano notatnik
+huggingface_hub
+numpy
+Pillow
+
+# uruchamianie notatnika
+jupyterlab
